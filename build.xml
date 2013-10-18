@@ -196,6 +196,18 @@
         </java>
     </target>
 
+	<target name="gtengine" depends="compile">
+        <java classname="teb.Gtengine" output="output/gtengine.html" logError="true" fork="true">
+            <jvmarg value="-server"/>
+            <sysproperty  key="out" value="${out}"/>
+            <sysproperty  key="wtimes" value="${wtimes}"/>
+            <sysproperty  key="ntimes" value="${ntimes}"/>
+            <sysproperty  key="buf" value="${buf}"/>
+            <classpath location="classes"/>
+            <classpath refid="project.class.path"/>
+        </java>
+    </target>
+
     <target name="header">
         <echo>
 #################################################################
@@ -214,7 +226,7 @@
     </target>
 
     <target name="selected" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,japid"></target>
-    <target name="all" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,jangod,thymeleaf,japid"></target>
+    <target name="all" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,japid,jangod,thymeleaf"></target>
     
     <target name="help">
         <echo>
