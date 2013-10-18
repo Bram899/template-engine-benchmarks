@@ -15,12 +15,12 @@ import org.rythmengine.RythmEngine;
 
 import teb.model.Stock;
 
-public class Rythm extends _BenchBase {
+public class NewRythm extends _BenchBase {
 
 	RythmEngine engine;
-	private String template = "templates/stocks.rythm.html";
+	private String template = "templates/stocks.newrythm.html";
 
-	public Rythm() {
+	public NewRythm() {
 		Properties p = new Properties();
 		p.put("log.enabled", false);
 		p.put("feature.smart_escape.enabled", false);
@@ -120,7 +120,7 @@ public class Rythm extends _BenchBase {
 		// System.setProperty("buf", "true");
 		// System.setProperty("wtimes", "0");
 		// System.setProperty("ntimes", "1");
-		new Rythm().run();
+		new NewRythm().run();
 		// String s = com.greenlaw110.rythm.Rythm.render("hool @abc", "sd");
 		// System.out.println(s);
 	}
