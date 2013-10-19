@@ -4,6 +4,7 @@ import httl.Engine;
 import httl.Template;
 
 import java.io.OutputStream;
+import java.io.Writer;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
@@ -75,6 +76,12 @@ public class Httl extends Bench {
 	protected void renderToStream(final List<Stock> items,
 			final OutputStream output) throws Exception {
 		template.render(params, output);
+	}
+
+	@Override
+	protected void renderToWriter(final List<Stock> items, final Writer writer)
+			throws Exception {
+		template.render(params, writer);
 	}
 
 	public static void main(final String[] args) throws Exception {
