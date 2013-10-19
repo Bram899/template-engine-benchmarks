@@ -208,6 +208,17 @@
         </java>
     </target>
 
+	<target name="stringtemplate" depends="compile">
+        <java classname="teb.StringTemplate" output="output/stringtemplate.html" logError="true" fork="true">
+            <jvmarg value="-server"/>
+            <sysproperty  key="out" value="${out}"/>
+            <sysproperty  key="wtimes" value="${wtimes}"/>
+            <sysproperty  key="ntimes" value="${ntimes}"/>
+            <sysproperty  key="buf" value="${buf}"/>
+            <classpath location="classes"/>
+            <classpath refid="project.class.path"/>
+        </java>
+    </target>
     <target name="header">
         <echo>
 #################################################################
@@ -225,8 +236,8 @@
         </echo>
     </target>
 
-    <target name="selected" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,japid"></target>
-    <target name="all" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,japid,jangod,thymeleaf"></target>
+    <target name="selected" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,japid,stringtemplate"></target>
+    <target name="all" depends="header,stringbuilder,freemarker,velocity,rythm,newrythm,jamon,httl,jmte,japid,stringtemplate,jangod,thymeleaf"></target>
     
     <target name="help">
         <echo>
