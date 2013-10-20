@@ -5,7 +5,7 @@
 
 | Engine                                   | Version     |   (Smaller the better |
 | ---------------------------------------- |:-----------:| -----:|
-| StringBuilder  (2)                       |             |   1.0x |
+| StringBuilder  (2)                       |  Base implementation           |   1.0x |
 | [Httl](./httl.md)  (3)                   |  1.0.7      |   0.9x |
 | [Japid](./japid.md)                      |  0.9.32     |   1.3x |
 | [Rythm](./rythm.md)                      |  1.0b11     |   1.6x |
