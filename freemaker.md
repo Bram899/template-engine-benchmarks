@@ -5,7 +5,8 @@
 |                     |                                                                     | 
 | ------------------- |:-------------------------------------------------------------------:| 
 | Last release        | 2013-06-27                                                          |
-| License             | [Apache license] (https://github.com/httl/httl/blob/master/LICENSE) |
+| License             | [BSD style] (http://freemarker.org/docs/app_license.html) |
+| [Gae] (https://developers.google.com/appengine/?hl=tr&csw=1) compatible             | [Yes] (http://sourceforge.net/projects/freemarker/files/freemarker/2.3.20/freemarker-gae-2.3.20.jar/download) |
 
 
 ## Code
