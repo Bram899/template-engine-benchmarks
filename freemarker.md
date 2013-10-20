@@ -10,7 +10,7 @@
 
 
 ## Code
-[Java: src/teb/FreeMarker.java] (src/teb/Freemarker.java)
+[Java: src/teb/FreeMarker.java] (src/teb/FreeMarker.java)
 
 [Template: templates/stocks.ftl.html] (templates/stocks.ftl.html)
 
