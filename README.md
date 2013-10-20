@@ -2,7 +2,7 @@
 This is a benchmark for java template engines. 
 This is a fork of [greenlaw110's original work] (https://github.com/greenlaw110/template-engine-benchmarks).
 
-The benchmark renders a list of the XXX stock using a [HTML page] ()
+The benchmark renders a list of the 20 stock ticker into [an HTML page]. (https://rawgithub.com/PerfectCarl/template-engine-benchmarks/master/output/stringbuilder.html)
 
 The rendering is executed `1000 times` and its execution time is compared with [a baseline implementation](stringbuilder.md) using java's `StringBuilder`.
 
