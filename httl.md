@@ -1,16 +1,17 @@
-## Httl
-Version : 1.0.11
+## [Httl - 1.0.11] (http://httl.github.io/en/)
 Last release : March, the 16 2013
-[Website] (http://httl.github.io/en/)
+
 License : [Apache license] (https://github.com/httl/httl/blob/master/LICENSE)
+
 [Tutorial] (http://httl.github.io/en/example.html)
 
 ## Code
-[Java file] (src/teb/Httl.java)
-[Template file] (templates/stocks.httl.html)
+[Java: src/teb/Httl.java] (src/teb/Httl.java)
 
-# Example of syntax 
-````
+[Template: templates/stocks.httl.html] (templates/stocks.httl.html)
+
+## Syntax 
+```` html
    <tbody>
 	<!--#foreach(item in items)-->
 	<tr class="${foreach.index % 2 == 1 ? "even" : "odd"}">
