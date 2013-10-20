@@ -1,4 +1,4 @@
-## [Freemaker - 2.3.20] (http://freemarker.org/)
+## [Freemarker - 2.3.20] (http://freemarker.org/)
 
 [Tutorial] (http://freemarker.org/docs/dgui_quickstart_template.html)
 
@@ -10,7 +10,7 @@
 
 
 ## Code
-[Java: src/teb/Freemaker.java] (src/teb/Freemaker.java)
+[Java: src/teb/FreeMarker.java] (src/teb/Freemaker.java)
 
 [Template: templates/stocks.ftl.html] (templates/stocks.ftl.html)
 
