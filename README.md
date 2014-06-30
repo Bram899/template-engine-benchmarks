@@ -18,7 +18,7 @@ The rendering is executed `1000 times` and its execution time is compared with [
 | [Jamon](jamon.md)                                      |  2.4.0      |   1.8x   |          |     |       |       |        |       |    |    |       |
 | [Velocity](velocity.md)                                |  1.7        |   2.1x   |          |     |       | [Yes](https://github.com/Furyu/play-velocity-plugin)       | [Yes](http://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch17s04.html)       |       |    |    |       |
 | [FreeMarker](freemarker.md)                            |  2.3.19     |   3.0x   |          |     |       |       |[Yes](http://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch17s04.html)      |       |    |    |       |
-| [Jmte](https://code.google.com/p/jmte/)                |  2.2        |   3.1x   |          |Yes     |       |       |        |       |    |    |       |
+| [Jmte](https://code.google.com/p/jmte/)                |  2.2        |   3.1x   |          |Yes  |       |       |        |       |    |    | Last version 3.1      |
 | [StringTemplate](stringtemplate.md)                    |  4.0.7      |   4.7x   |          |     |       |       |        |       |    |    |       |
 | [Jangod](jangod.md)                                    |             |  18.0x   |          |     |       |       |        |       |    |    |       |
 | [ThymeLeaf](thymeleaf.md)                              |  2.0.15     |  26.7x   |          |     |       |       |        |       |    |    |       |
