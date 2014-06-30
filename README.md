@@ -9,28 +9,30 @@ The rendering is executed `1000 times` and its execution time is compared with [
 
 ## Results 
 
-| Engine                                                 | Version     | Perf (1) | GAE | Play1 | Play2 | Spring | Ninja | C# | Javascript |
-| -------------------------------------------------------|:-----------:|:--------:|:---:|:-----:|:-----:|:------:|:-----:|:--:|:----------:|
-| [StringBuilder](stringbuilder.md)                      |    _        |   1.0x   |     |       |       |        |       |    |            | 
-| [Httl](httl.md)  (3)                                   |  1.0.7      |   0.9x   |     |       |       |        |       |    |            |
-| [Japid](japid.md)                                      |  0.9.32     |   1.3x   |     |       |       |        |       |    |            |
-| [Rythm](rythm.md)                                      |  1.0b11     |   1.6x   | Yes | [Yes](https://github.com/greenlaw110/play-rythm) | [?](https://github.com/greenlaw110/Rythm/issues/204)| [Yes](https://github.com/greenlaw110/spring-rythm) | [Yes](https://github.com/ninjaframework/ninja-rythm)      |[Yes](http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx/) |
-| [Jamon](jamon.md)                                      |  2.4.0      |   1.8x   |     |       |       |        |       |    |            |
-| [Velocity](velocity.md)                                |  1.7        |   2.1x   |     |       |       |        |       |    |            |
-| [FreeMarker](freemarker.md)                            |  2.3.19     |   3.0x   |     |       |       |        |       |    |            |
-| [Jme](jme.md)                                          |  2.2        |   3.1x   |     |       |       |        |       |    |            |
-| [StringTemplate](stringtemplate.md)                    |  4.0.7      |   4.7x   |     |       |       |        |       |    |            |
-| [Jangod](jangod.md)                                    |             |  18.0x   |     |       |       |        |       |    |            |
-| [ThymeLeaf](thymeleaf.md)                              |  2.0.15     |  26.7x   |     |       |       |        |       |    |            |
-| [Handlebars](http://jknack.github.io/handlebars.java/) |             |          |     |       |       |        |       |    | [Yes](http://handlebarsjs.com/) |
-| [Mustache](https://github.com/spullara/mustache.java/) |             |          |     | [Yes](http://www.playframework.com/modules/mustache)       |[Yes](https://github.com/julienba/play2-mustache)|        |[Yes](https://github.com/kpacha/ninja-mustache)       |    | [Yes](http://mustache.github.com/mustache.5.html/) |
-| [Jade](https://github.com/neuland/jade4j)              |    0.40     |    3.x   |     |       | [Almost](http://stackoverflow.com/a/16917876/740464)|[Yes](https://github.com/neuland/spring-jade4j)|[Yes](https://github.com/mysu/jade4ninja)     | [Yes](http://stackoverflow.com/a/10569528/740464)| [Yes](http://jade-lang.com/) |
+| Engine                                                 | Version     | Perf (1) | Incl (4) | GAE | Play1 | Play2 | Spring | Ninja | C# | Js | Notes | 
+| -------------------------------------------------------|:-----------:|:--------:|:--------:|:---:|:-----:|:-----:|:------:|:-----:|:--:|:--:|:-----:|
+| [StringBuilder](stringbuilder.md)                      |    _        |   1.0x   |          |     |       |       |        |       |    |    |       | 
+| [Httl](httl.md)  (3)                                   |  1.0.7      |   0.9x   |          |     |       |       |        |       |    |    |       |
+| [Japid](japid.md)                                      |  0.9.32     |   1.3x   |          |     |       |       |        |       |    |    |       |
+| [Rythm](rythm.md)                                      |  1.0b11     |   1.6x   | Yes      | Yes | [Yes](https://github.com/greenlaw110/play-rythm) | [?](https://github.com/greenlaw110/Rythm/issues/204)| [Yes](https://github.com/greenlaw110/spring-rythm) | [Yes](https://github.com/ninjaframework/ninja-rythm)      |[Yes](http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx/) | |
+| [Jamon](jamon.md)                                      |  2.4.0      |   1.8x   |          |     |       |       |        |       |    |    |       |
+| [Velocity](velocity.md)                                |  1.7        |   2.1x   |          |     |       |       |        |       |    |    |       |
+| [FreeMarker](freemarker.md)                            |  2.3.19     |   3.0x   |          |     |       |       |        |       |    |    |       |
+| [Jme](jme.md)                                          |  2.2        |   3.1x   |          |     |       |       |        |       |    |    |       |
+| [StringTemplate](stringtemplate.md)                    |  4.0.7      |   4.7x   |          |     |       |       |        |       |    |    |       |
+| [Jangod](jangod.md)                                    |             |  18.0x   |          |     |       |       |        |       |    |    |       |
+| [ThymeLeaf](thymeleaf.md)                              |  2.0.15     |  26.7x   |          |     |       |       |        |       |    |    |       |
+| [Handlebars](http://jknack.github.io/handlebars.java/) |             |          |          |     |       |       |        |       |    | [Yes](http://handlebarsjs.com/) |
+| [Mustache](https://github.com/spullara/mustache.java/) |             |          |          |     | [Yes](http://www.playframework.com/modules/mustache)       |[Yes](https://github.com/julienba/play2-mustache)|        |[Yes](https://github.com/kpacha/ninja-mustache)       |    | [Yes](http://mustache.github.com/mustache.5.html/) | |
+| [Jade](https://github.com/neuland/jade4j)              |    0.40     |    3.x   | Yes      |     |       | [Almost](http://stackoverflow.com/a/16917876/740464)|[Yes](https://github.com/neuland/spring-jade4j)|[Yes](https://github.com/mysu/jade4ninja)     | [Yes](http://stackoverflow.com/a/10569528/740464)| [Yes](http://jade-lang.com/) | |
 
 (1) The smaller, the better
 
 (2)
 
 (3) 
+
+(4) Support include in templates
 
 ## Tests
 
