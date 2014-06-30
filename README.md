@@ -23,7 +23,7 @@ The rendering is executed `1000 times` and its execution time is compared with [
 | [Jangod](jangod.md)                                    |             |  18.0x   |     |       |       |        |       |    |            |
 | [ThymeLeaf](thymeleaf.md)                              |  2.0.15     |  26.7x   |     |       |       |        |       |    |            |
 | [Handlebars](http://jknack.github.io/handlebars.java/) |             |          |     |       |       |        |       |    | [Yes](http://handlebarsjs.com/) |
-| [Mustache](https://github.com/spullara/mustache.java/) |             |          |     |       |       |        |[Yes](https://github.com/kpacha/ninja-mustache)       |    | [Yes](http://mustache.github.com/mustache.5.html/) |
+| [Mustache](https://github.com/spullara/mustache.java/) |             |          |     | [Yes](http://www.playframework.com/modules/mustache)       |       |        |[Yes](https://github.com/kpacha/ninja-mustache)       |    | [Yes](http://mustache.github.com/mustache.5.html/) |
 | [Jade](https://github.com/neuland/jade4j)              |             |          |     |       | [Almost](http://stackoverflow.com/a/16917876/740464)|        |[Yes](https://github.com/mysu/jade4ninja)     |    | [Yes](http://jade-lang.com/) |
 
 (1) The smaller, the better
