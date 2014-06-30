@@ -1,11 +1,31 @@
-doctype html
-html(lang="en")
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en', lang='en')
   head
     title Stock Prices - Jade
   body
     h1 Stock Prices- Jade
     table
-      tr
-      each item, i in items
-        td #{item.name}
-        td #{item.symbol}
+      thead
+        th #
+        th symbol
+        th name
+        th price
+        th change
+        th ratio
+      tbody
+        each item, i in items
+          tr(class=i%2==1?'even':'odd')
+            td(style="text-align: center") #{i}
+            td 
+              a(href="/stocks/#{item.symbol}") #{item.symbol}
+            td 
+              a(href="#{item.url}") #{item.name}
+            td
+              strong #{item.price}
+            if item.change < 0.0 
+              td.minus #{item.change}
+              td.minus #{item.ratio}
+            else
+              td #{item.change}
+              td #{item.ratio}
+
