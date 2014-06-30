@@ -16,8 +16,8 @@ The rendering is executed `1000 times` and its execution time is compared with [
 | [Japid](japid.md)                                      |  0.9.32     |   1.3x   |          |     |  [Yes](http://www.playframework.com/modules/japid)     | [Yes](https://github.com/branaway/japid42)      |        |       |    |    |       |
 | [Rythm](rythm.md)                                      |  1.0b11     |   1.6x   | Yes      | Yes | [Yes](https://github.com/greenlaw110/play-rythm) | [?](https://github.com/greenlaw110/Rythm/issues/204)| [Yes](https://github.com/greenlaw110/spring-rythm) | [Yes](https://github.com/ninjaframework/ninja-rythm)      |[Yes](http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx/) | |
 | [Jamon](jamon.md)                                      |  2.4.0      |   1.8x   |          |     |       |       |        |       |    |    |       |
-| [Velocity](velocity.md)                                |  1.7        |   2.1x   |          |     |       |       |        |       |    |    |       |
-| [FreeMarker](freemarker.md)                            |  2.3.19     |   3.0x   |          |     |       |       |        |       |    |    |       |
+| [Velocity](velocity.md)                                |  1.7        |   2.1x   |          |     |       | [Yes](https://github.com/Furyu/play-velocity-plugin)       | [Yes](http://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch17s04.html)       |       |    |    |       |
+| [FreeMarker](freemarker.md)                            |  2.3.19     |   3.0x   |          |     |       |       |[Yes](http://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch17s04.html)      |       |    |    |       |
 | [Jme](jme.md)                                          |  2.2        |   3.1x   |          |     |       |       |        |       |    |    |       |
 | [StringTemplate](stringtemplate.md)                    |  4.0.7      |   4.7x   |          |     |       |       |        |       |    |    |       |
 | [Jangod](jangod.md)                                    |             |  18.0x   |          |     |       |       |        |       |    |    |       |
