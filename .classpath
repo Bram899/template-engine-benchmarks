@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="templates"/>
+	<classpathentry kind="lib" path="lib/antlr-4.1-complete.jar"/>
+	<classpathentry kind="lib" path="lib/beetl.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/ecj-3.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="lib/httl-1.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/jade4j-0.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/jamon-anttask-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/jamon-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/jamon-junit-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/jamon-processor-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/jamon-runtime-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/jamon-stdlib-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/jangod-template.jar"/>
+	<classpathentry kind="lib" path="lib/japid-0.9.32.jar"/>
+	<classpathentry kind="lib" path="lib/javaparser-1.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/javassist-3.16.1-GA.jar"/>
+	<classpathentry kind="lib" path="lib/jmte-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/mvel2-2.1.5.Final.jar"/>
+	<classpathentry kind="lib" path="lib/ognl-3.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/patbinfree153.jar"/>
+	<classpathentry kind="lib" path="lib/rythm-engine-1.0-b10-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/rythm-engine-1.0-b11-CARL-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/ST-4.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/thymeleaf-2.0.15.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7-dep.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -106,7 +106,7 @@ public abstract class Bench extends _BenchBase {
 		return result;
 	}
 
-	protected String renderToString(final List<Stock> items) {
+	protected String renderToString(final List<Stock> items) throws Exception {
 		return null;
 	}
 

@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title Stock Prices - Jade
+  body
+    h1 Stock Prices- Jade
+    table
+      tr
+      each item, i in items
+        td #{item.name}
+        td #{item.symbol}
