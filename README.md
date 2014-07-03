@@ -8,13 +8,13 @@ This is a benchmark for java template engines based on [greenlaw110's original w
 | Engine                                                 | Version     | Perf (1) | Incl (4)                                                  | Custom tags | Last updated | Licence | Notes           | 
 | -------------------------------------------------------|:-----------:|:--------:|:---------------------------------------------------------:|:-----------:|:------------:|:-------:|:---------------:|
 | [StringBuilder](stringbuilder.md)                      |    _        |   1.0x   |                                                           |             |              |         |                 | 
-| [Httl](httl.md)  (3)                                   |  1.0.7      |   0.9x   |                                                           |             |              |         |                 |
+| [Httl](httl.md)                                        |  1.0.7      |   0.9x   |                                                           |             |              |         |Latest 1.0.11    |
 | [Japid](japid.md)                                      |  0.9.32     |   1.3x   |                                                           |             |              |         |                 |
-| [Rythm](rythm.md)                                      |  1.0b11     |   1.6x   | Yes                                                       | Yes         |              |         |Razor like syntax|
+| [Rythm](rythm.md)                                      |  1.0.1      |   1.6x   | Yes                                                       | Yes         |              |         |Razor like syntax|
 | [Jamon](jamon.md)                                      |  2.4.0      |   1.8x   |                                                           |             |              |         |                 |
 | [Velocity](http://velocity.apache.org)                 |  1.7        |   2.1x   |                                                           |             |              |         |                 |
 | [FreeMarker](freemarker.md)                            |  2.3.19     |   3.0x   |                                                           |             |              |         |                 |
-| [Jmte](https://code.google.com/p/jmte/)                |  2.2        |   3.1x   |                                                           |Yes          |              |         |Last version 3.1 |
+| [Jmte](https://code.google.com/p/jmte/)                |  2.2        |   3.1x   |                                                           |Yes          |              |         |Latest  3.1      |
 | [StringTemplate](http://www.stringtemplate.org/)       |  4.0.7      |   4.7x   |                                                           |             |              |         |                 |       
 | [Jangod](jangod.md)                                    |             |  18.0x   |                                                           |             |              |         |                 |       
 | [ThymeLeaf](thymeleaf.md)                              |  2.0.15     |  26.7x   |                                                           |             |              |         |                 |       
