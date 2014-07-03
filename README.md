@@ -5,7 +5,7 @@ This is a benchmark for java template engines based on [greenlaw110's original w
 
 
 
-| Engine                                                 | Version     | Perf (1) | Incl (4)                                                  | Custom tags | Last updated | Licence | Notes           | 
+| Engine                                                 | Version     | Perf (1) | Incl (2)                                                  | Custom tags | Last updated | Licence | Notes           | 
 | -------------------------------------------------------|:-----------:|:--------:|:---------------------------------------------------------:|:-----------:|:------------:|:-------:|:---------------:|
 | [StringBuilder](stringbuilder.md)                      |    _        |   1.0x   |                                                           |             |              |         |                 | 
 | [Httl](httl.md)                                        |  1.0.7      |   0.9x   |                                                           |             |              |         |Latest 1.0.11    |
@@ -25,11 +25,7 @@ This is a benchmark for java template engines based on [greenlaw110's original w
 
 (1) The smaller, the better
 
-(2)
-
-(3) 
-
-(4) Support include in templates
+(2) Support include in templates
 
 ## Supported platforms
 
